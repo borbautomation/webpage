@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'borbolla_automation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'borbolla',        
-        'USER': 'root',
-        'PASSWORD': 'okokok',
-        'HOST': 'localhost',
+        'NAME': 'automation$borbolla',        
+        'USER': 'automation',
+        'PASSWORD': 'yamahaSP203487',
+        'HOST': 'automation.mysql.pythonanywhere-services.com',
         'PORT': '',
     }
 }
