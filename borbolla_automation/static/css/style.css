@@ -88,13 +88,13 @@ img {
 }
 .nav-links  .navbar-inverse .navbar-nav>li>a:hover {
     background-color:#fff;
-	color:#df4914;
+	color:#3b2871;
 }
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #000;
 }
 .nav-links .navbar-inverse .navbar-nav>.active>a,.nav-links  .navbar-inverse .navbar-nav>.active>a:focus,.nav-links  .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #df4914;
+    color: #3b2871;
     background-color: #FFFFFF;
 }
 .navbar-header {
@@ -118,7 +118,7 @@ div#myNavbar {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#df4914;
+	background:#5c5cd6;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -147,7 +147,7 @@ div#myNavbar {
 	padding-top:50px;
 }
 .banner-text-agileinfo {
-       background: hsla(14, 100%, 57%, 0.75);
+       background: hsla(249, 100%, 40%, 0.75);
     padding: 30px;
     margin: 14% 0 0 52%;
     width: 30%;
@@ -176,7 +176,7 @@ div#myNavbar {
 	font-weight:700;
 }
 label.line{
-	background:#df4914;
+	background:#3b2871;
 	height:3px;
 	width:5%;
 	display:block;
@@ -196,7 +196,7 @@ p.top-p{
 }
 .about-right{
 	padding:55.5px;
-	background:#df4914;
+	background:#3b2871;
 }
 .about-right h4{
 	color:#fff;
@@ -236,7 +236,7 @@ p.sec-p{
     content: '';
     border-top: 0px solid transparent;
     border-bottom: 401px solid transparent;
-    border-right: 120px solid #df4914;
+    border-right: 120px solid #3b2871;
     z-index: 1;
 }
 h4.modal-title {
@@ -267,7 +267,7 @@ h4.modal-title {
 	-ms-transition: 0.5s all;
 }
 .services-grids-w3l:hover .glyphicon{
-	color:#df4914;
+	color:#3b2871;
 }
 .services-grids-w3l p{
 	width:90%;
@@ -426,7 +426,7 @@ img.zoom-img:hover {
 	margin-bottom:.5em;
 }
 .agile_team_grid1 p{
-    color: #df4914;
+    color: #3b2871;
 	font-size:14px;
 }
 .agile_team_grid_main{
@@ -518,7 +518,7 @@ ul.social-icons li  a .fa-linkedin:hover{
 
 .client h5 {
 	font-size: 20px;
-	color:#df4914;
+	color:#ffffff;
 	font-weight:700;
 }
 /*-- //clients--*/
@@ -545,7 +545,7 @@ input[type="text"] {
 .w3layouts-agileits input[type="submit"]{
 	padding:8px 20px;
 	color:#fff;
-	background:#df4914;
+	background:#3b2871;
 	outline:none;
 	border:none;
 }
@@ -583,7 +583,7 @@ ul.agileits-company-social .fa-google-plus:hover{
 /*-- //contact--*/
 .footer{
 	padding:30px 0;
-	background:#df4914;
+	background:#3b2871;
 }
 .footer  p {
     text-align: center;
@@ -763,7 +763,7 @@ ul.agileits-company-social .fa-google-plus:hover{
 		padding: 20px 0;
 	}
 	.navbar-toggle{
-		background:#df4914;
+		background:#3b2871;
 		border-radius:0;
 		border:none;
 		margin:20px 0 0 0;

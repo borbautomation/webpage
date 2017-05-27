@@ -5,9 +5,10 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
-<title>Best Industry an Industrial Category Flat Bootstrap responsive Website Template | Home :: w3layouts</title>
+<title>Borbolla Automation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Best Industry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -15,20 +16,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css -->
 <link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' media='all' />
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/lightbox.css">
-<link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/lightbox.css' %}">
+<link rel="stylesheet" href="{% static 'css/font-awesome.css' %}" type="text/css" media="all" />
 <!--// css -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
 
 			<!-- FlexSlider-JavaScript -->
-	<script defer src="js/jquery.flexslider.js"></script>
+	<script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
 	<script type="text/javascript">
 		$(function(){
 			SyntaxHighlighter.all();
@@ -56,16 +57,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand" href="index.html"><h1>Best Industry</h1></a>
+				<a class="navbar-brand" href="/"><img src="{% static 'images/borbolla_logo.png' %}" ></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav link-effect">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="#about" class="scroll">About</a></li>
-					<li><a href="#services" class="scroll">Services</a></li>
-					<li><a href="#projects" class="scroll">Projects</a></li>
-					<li><a href="#team" class="scroll">Team</a></li>	
-					<li><a href="#contact" class="scroll">Contact</a></li>
+					<li class="active"><a href="index.html">Principal</a></li>
+					<li><a href="#about" class="scroll">Acerca</a></li>
+					<li><a href="#services" class="scroll">Servicios</a></li>
+					<li><a href="#projects" class="scroll">Proyectos</a></li>
+					<li><a href="#team" class="scroll">Equipos</a></li>	
+					<li><a href="#contact" class="scroll">Contacto</a></li>
 				</ul>
 			</div>
 		</div>
@@ -75,27 +76,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- banner-->
 <div class="banner-agile">
-	<div class="banner-text-agileinfo">
-		<h2>Donec ac justo</h2>
-		<p>Aenean sed maximus ipsum. Donec porttitor leo dictum sollicitudin pretium. Nullam a tellus ante. Quisque pulvinar libero nec dolor porta, eget tristique nulla pretium.</p>
-	</div>
+	
 </div>
 <!-- /banner-->
 
 <!--about -->
 <div class="about-agileits" id="about">
 	<div class="container">
-		<h3>About us</h3>
+		<h3>Acerca de Nosotros</h3>
 		<label class="line"></label>
-		<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+		<p class="top-p">Somos un equipo de especialistas que proveen soluciones en automatización de procesos industriales , Monitoreo de calidad de energia , Monitoreo de procesos a travez de SCADA y soluciones de ingenieria ,logrando satisfacción de nuestros clientes a través de la mejora continua, nuevas tecnologías, integridad y excelencia.</p>
 	</div>
 		<div class="col-md-6 about-left">
 		</div>
 		<div class="col-md-6 about-right">
-			<h4>Contrary to popular belief</h4>
-			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. </p>
-			<p class="sec-p">Curabitur justo neque, pretium vel metus quis, laoreet porta velit. Nullam molestie ipsum nec diam tempor molestie. In suscipit est sed ligula fringilla elementum. Sed fringilla pellentesque eros, in luctus orci finibus at. Sed aliquam augue et fringilla porta. Donec ex nisi, finibus a eros a, egestas convallis ex. </p>
-			<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+			<h4>Que entendemos por Automatizacion</h4>
+			<p>Uso de sistemas o elementos computarizados y electromecánicos para controlar maquinarias o procesos industriales. </p>
+			<p class="sec-p">Como una disciplina de la ingeniería más amplia que un sistema de control, abarca la instrumentación industrial, que incluye los sensores, los transmisores de campo, los sistemas de control y supervisión, los sistemas de transmisión y recolección de datos y las aplicaciones de software en tiempo real para supervisar y controlar las operaciones de plantas o procesos industriales.</p>
+			<a href="#" data-toggle="modal" data-target="#myModal">Leer Mas</a>
 		</div>
 		<div class="clearfix"></div>
 </div>
@@ -108,13 +106,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Best Industry</h4>
+          <h4 class="modal-title">Sistemas de control distribuido</h4>
         </div>
         <div class="modal-body">
-          <p>Quisque sollicitudin mattis diam, quis mollis nisi feugiat quis. Nunc quam purus, interdum in mauris et, pretium pulvinar dolor. Sed vitae lectus libero. Vivamus ullamcorper, dui eu volutpat malesuada, erat risus sollicitudin massa, in sollicitudin odio est at sem. Sed consequat dictum justo, sit amet commodo massa interdum eget. Donec vel mattis magna.</p>
+          <p>
+
+Existe un concepto fundamental y muy actual en torno a la automatización industrial y es el de DCS (sistemas de control distribuido). Un sistema de control distribuido está formado por varios niveles de automatización que van desde un mínimo de 3 hasta 5. Los mismos se denominan: nivel de campo (donde se encuentran los sensores y actuadores), nivel de control (donde se encuentran los PLCs o las Estaciones de Automatización), nivel de supervisión (donde se encuentran las Estaciones de Operación y los Servidores de Proceso), nivel MES (donde se encuentran PCs con softwares especializados para la distribución de toda la información de planta así como la generación de reportes)y el nivel ERP (donde se encuentran igualmente PCs con softwares especializados para la planificación y administración de la producción de toda la industria o empresa).
+</br></br>
+Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto analógicas como digitales para leer entradas de campo a través de sensores y para generar, a través de su programa, salidas hacia el campo a través de actuadores. Esto conduce para controlar acciones precisas que permitan un control estrecho de cualquier proceso industrial. (Se temía que estos dispositivos fueran vulnerables al error del año 2000, con consecuencias catastróficas, ya que son tan comunes dentro del mundo de la industria).</p>
+<img src="{% static 'images/What-is-Distributed-Control-System.jpg' %}">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
       
@@ -125,145 +128,148 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services -->
 <div class="services-w3" id="services">
 	<div class="container">
-		<h3>Services</h3>
+		<h3>Servicios</h3>
 		<label class="line"></label>
-		<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+		<p class="top-p"> Nuestro portafolio de servicios está integrado por:<br/>
+	
+			
+			-Venta de equipo PLC, HMI, componentes de redes drial, drives <br/> 
+			-Instrumentacion industrial y despliegue en SCADA<br/>
+			-Ahorro y calidad de energia electrica<br/>
+			-Servicio técnico en sitio<br/>
+			-Desarrollo de proyectos<br/>
+</p>
+		
+		
 		<div class="col-md-4 services-grids-w3l">
 			<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-			<p>Mauris nisi ante, fringilla ac vehicula a, lacinia ut nulla. Sed eleifend sem a quam sagittis suscipit.Aenean sed maximus ipsum</p>
+			<p>Servicio de instrumentacion industrial y despliegue en SCADA desde diseno , instalacion electrica, diseno de red profinet , programacion de PLC's , bases de datos y diseno de interfaz grafica para usuario</p>
 		</div>
 		<div class="col-md-4 services-grids-w3l">
 			<span class="glyphicon glyphicon-inbox" aria-hidden="true"></span>
-			<p>Mauris nisi ante, fringilla ac vehicula a, lacinia ut nulla. Sed eleifend sem a quam sagittis suscipit.Aenean sed maximus ipsum</p>
+			<p>Diseño , instalacion , cableado , monitoreo y automatizacion de CCMs (Centro de Control de Motores) </p>
 		</div>
 		<div class="col-md-4 services-grids-w3l">
 			<span class="glyphicon glyphicon-tower" aria-hidden="true"></span>
-			<p>Mauris nisi ante, fringilla ac vehicula a, lacinia ut nulla. Sed eleifend sem a quam sagittis suscipit.Aenean sed maximus ipsum</p>
+			<p>Sistema de Monitoreo de calidad de energia electrica , asi como consultoria de cualquier problema , y/o solucion de calidad de energia electrica <br>
+			Descarga muestra de SCADA electrico Schneider <a href="{% static 'documents/muestrario.pdf' %}" download="Borbolla_Automation_Energy_monitoring.pdf">Aqui</a></p>
 		</div>
+        
+
 		<div class="clearfix"></div>
+		
 	</div>
+	
 </div>
+
 <!-- /services -->
 
 
 <!-- skills -->
-<div class="skills-w3ls">
-	<div class="container">
-	<h3>Our Skills</h3>
-<div id="demo-pie-1" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
-<div id="demo-pie-2" class="pie-title-center" data-percent="70"> <span class="pie-value"></span> </div>
-<div id="demo-pie-3" class="pie-title-center" data-percent="50"> <span class="pie-value"></span> </div>
-<div id="demo-pie-4" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
-	</div>
-</div>
+<hr width="80%">
 <!-- /skills -->
 	<!--gallery-->
 	<div class="gallery" id="projects">
 		<div class="container">
-			<h3>Projects</h3>
+			<h3>Proyectos</h3>
 			<label class="line"></label>
 			<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
 		</div>
 			<div class="gallery-info">
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g1.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g1.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g1.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/ccm_cooling_tower.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g2.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g2.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/g2.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g3.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g3.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/ccm_building.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g4.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g4.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/ct_ccm.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g5.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g5.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/g5.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g6.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g6.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/g6.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g7.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g7.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g7.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/g7.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="col-md-3 gallery-grids">
-					<a href="images/g8.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/g8.jpg" alt="" class="img-responsive zoom-img">
+					<a href="{% static 'images/g8.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/g8.jpg' %}" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
 				<div class="clearfix"> </div>	
 			</div>
-			<script src="js/lightbox-plus-jquery.min.js"></script>
+			<script src="{% static 'js/lightbox-plus-jquery.min.js' %}"></script>
 	</div>
 	<!--//gallery-->
 <!-- team -->
-	<div class="team" id="team">
+	<div class="gallery" id="projects">
 		<div class="container">
-			<h3>Meet Our Team</h3>
+			<h3>Algunos Sistemas SCADA</h3>
 			<label class="line"></label>
 			<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
-			<div class="agile_team_grids">
-				<div class="col-md-4 agile_team_grid agile1">
-					<div class="agile_team_grid_main">
-						<img src="images/t1.jpg" alt=" " class="img-responsive" />
-						<div class="p-mask">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="agile_team_grid1">
-						<h4>Williamson</h4>
-						<p>Managing Director</p>
-					</div>
+		</div>
+		
+			<div class="gallery-info">
+
+			<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/mecscada.png' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/mecscada.png' %}" alt="" class="img-responsive zoom-img">
+					</a>
 				</div>
-				<div class="col-md-4 agile_team_grid agile2">
-					<div class="agile_team_grid_main">
-						<img src="images/t2.jpg" alt=" " class="img-responsive" />
-						<div class="p-mask">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="agile_team_grid1">
-						<h4>Linda Carl </h4>
-						<p>Technician</p>
-					</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/mkdc.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/mkdc.jpg' %}" alt="" class="img-responsive zoom-img">
+					</a>
 				</div>
-				<div class="col-md-4 agile_team_grid agile3">
-					<div class="agile_team_grid_main">
-						<img src="images/t3.jpg" alt=" " class="img-responsive" />
-						<div class="p-mask">
-							<ul class="social-icons">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="agile_team_grid1">
-						<h4>Harington</h4>
-						<p>General Manager</p>
-					</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/billing.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/billing.jpg' %}" alt="" class="img-responsive zoom-img">
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/power_graph.jpg' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/power_graph.jpg' %}" alt="" class="img-responsive zoom-img">
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/LEGO.png' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/LEGO.png' %}" alt="" class="img-responsive zoom-img">
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/Johnson Controls.png' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/Johnson Controls.png' %}" alt="" class="img-responsive zoom-img">
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/whirlpool.png' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/whirlpool.png' %}" alt="" class="img-responsive zoom-img">
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grids">
+					<a href="{% static 'images/graph.png' %}" class="gallery-box" data-lightbox="example-set" data-title="">
+						<img src="{% static 'images/graph.png' %}" alt="" class="img-responsive zoom-img">
+					</a>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -274,40 +280,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Clients -->
 	<div class="clients">
 		<div class="container">
-			<h3>Testimonials</h3>
+			<h3>Marcas</h3>
 			<label class="line"></label>
-			<h4>What Our Clients Say</h4>
+			<h4>algunas de las marcas que manejamos</h4>
 			<section class="slider">
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
-							<img src="images/c1.png" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+							<img src="{% static 'images/siemens.png' %}" alt="" />
+								<p>PLC's automatizacion de CCM's , instrumentacion y despliegue en interfaz grafica en computadora o HMI , siemens ofrece una gran variedad de soluciones listas para implementarse</p>
 								<div class="client">
-									<h5>Brian Fantana</h5>
+									<h5>SIEMENS</h5>
 								</div>
 						</li>
 						<li>
-							<img src="images/c2.png" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+							<img src="{% static 'images/schneider.png' %}" alt="" />
+								<p>Marca de Alta y baja tension por excelencia su durabilidad combinada con su fiabilidad la hacen la marca lider en instalaciones residenciales e industriales </p>
 								<div class="client">
-									<h5>Brick Tamland</h5>
+									<h5>SCHNEIDER</h5>
 									
 								</div>
 						</li>
 						<li>
-							<img src="images/c3.png" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+							<img src="{% static 'images/abb.jpg' %}" alt="" />
+								<p>ABB es un líder tecnológico pionero que trabaja en estrecha colaboración con clientes de servicios públicos, industria, transporte e infraestructura para escribir el futuro de la digitalización industrial.</p>
 								<div class="client">
-									<h5>Ron Burgundy</h5>
+									<h5>ABB</h5>
 									
 								</div>
 						</li>
 						<li>
-							<img src="images/c4.png" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+							<img src="{% static 'images/allen-bradley.png' %}" alt="" />
+								<p>Mejore la productividad y la flexibilidad con la línea de productos Allen-Bradley, presentada por Rockwell Automation. Líder en innovación y calidad por más de 110 años, la cartera Allen-Bradley ofrece los componentes de automatización y los sistemas de control integrados que necesita para optimizar el rendimiento.</p>
 								<div class="client">
-									<h5>Arturo Mendez</h5>
+									<h5>ALLEN BRADLEY</h5>
+
+								</div>
+						</li>
+						<li>
+							<img src="{% static 'images/festo.jpg' %}" alt="" />
+								<p>Con más de cuarenta años de presencia en México, Festo se ha consolidado como la empresa líder en automatización neumática, electroneumática y electromecánica ofreciendo soluciones integrales en su ramo.</p>
+								<div class="client">
+									<h5>FESTO</h5>
 
 								</div>
 						</li>
@@ -320,39 +334,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div class="contact-wthree" id="contact">
 		<div class="container">
-					<h3>Get in touch</h3>
+					<h3>Ponte en contacto</h3>
 					<label class="line"></label>
-					<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+					<p class="top-p">Estamos para servirte , mandanos tu mensaje y con gusto te atenderemos , estamos para servirte para cualquier duda o aclaracion</p>
 					<div class="col-sm-8 w3layouts-agileits contact-left">
 						<form action="#"  method="get" class="my-form">
-							<input type="text"  name="name"  placeholder="Name" required="required">
+							<input type="text"  name="name"  placeholder="Nombre" required="required">
 							<input type="email"  name="email" class="email" placeholder="Email" required="required">
-							<textarea class="fill message" name="Message" placeholder="Message" required=""></textarea>
-						 <input class="submit" type="submit" name="Send" value="SEND">
+							<textarea class="fill message" name="Mensaje" placeholder="Message" required=""></textarea>
+						 <input class="submit" type="submit" name="Send" value="ENVIAR">
 						</form>
 					</div>
 					
 					<div class="col-sm-4 w3layouts-agileits contact-right">
 						<div class="w3layouts-address">
 						<address>
-						  <strong class="bold">Company name</strong><br>
-						  15-RG, Lorem Ipsum,<br>
-						  Main Road, quibusdam et aut<br>
-						  <abbr title="Phone">Mobile : </abbr> 0025-89674532<br>
-						   <abbr title="Phone">Phone : </abbr> 040-1654321-9
+						  <strong class="bold">Borbolla Automation</strong><br>
+						  319 East Coma Av. Suite 689<br>
+						  Hidalgo Tx. U.S.A Zip 78557<br>
+						  <abbr title="Telefono">Telefono : </abbr> +521-811-00-87-616<br>
+						   
 						</address>
 
 						<address>
 						  <strong class="bold">Email</strong><br>
-						  <a class="mail" href="mailto:info@example.com">info@example.com</a>
+						  <a class="mail" href="mailto:administracion@borbolla-automation.com">administracion@borbolla-automation.com</a>
 						</address>	
 						<address>
-						  <strong class="bold">We're on social networks</strong><br>
+						  <strong class="bold">Estamos en redes sociales!</strong><br>
 							<div>
 							<ul class="agileits-company-social">
 								<li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" target="_blank" title="dribbble"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#" target="_blank" title="google plus"><i class="fa fa-google-plus"></i></a></li>
 							</ul>
 							</div>
@@ -365,10 +378,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- /.contact us -->
 <div class="footer">
 	<div class="container">
-		<p>&copy; 2017 Best Industry. All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts </a></p>
+		<p>&copy; 2017 Borbolla Automation.  | Design by <a href="www.google.com"> Luis Borbolla </a></p>
 	</div>
 </div>
-	  <script src="js/pie-chart.js" type="text/javascript"></script>
+	  <script src="{% static 'js/pie-chart.js' %}" type="text/javascript"></script>
 	      <script type="text/javascript">
 
         $(document).ready(function () {
@@ -416,8 +429,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     </script>
 		<!-- start-smooth-scrolling -->
-			<script type="text/javascript" src="js/move-top.js"></script>
-			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+			<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
 			<script type="text/javascript">
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){		
