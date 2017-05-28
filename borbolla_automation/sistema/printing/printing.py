@@ -5,6 +5,7 @@ from reportlab.lib.enums import TA_CENTER
 from django.contrib.auth.models import User 
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
+from reportlab.lib.units import inch
  
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
