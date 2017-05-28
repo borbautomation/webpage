@@ -6,7 +6,7 @@ from django.conf.urls import include
 
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.print_users, name='print_users'),
     url(r'^admin/', admin.site.urls),
     url(r'^print/', sistema.views.print_users),
        
