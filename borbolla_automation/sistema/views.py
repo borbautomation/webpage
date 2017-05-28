@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
 from sistema.printing.printing import MyPrint
 from io import BytesIO
  
