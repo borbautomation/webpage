@@ -1,5 +1,5 @@
 import webpage.views 
-from printing import printing
+from webpage.printing import printing
 
 
 from django.conf.urls import url
