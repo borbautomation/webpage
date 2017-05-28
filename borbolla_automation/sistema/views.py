@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from printing.printing import MyPrint
+from sistema.printing.printing import MyPrint
 from io import BytesIO
  
 @staff_member_required
