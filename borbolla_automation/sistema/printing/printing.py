@@ -85,7 +85,8 @@ class MyPrint:
         for i, user in enumerate(users):
             elements.append(Paragraph(user.get_full_name(), styles['Normal']))
  
-        doc.build(elements)
+        doc.build(elements, onFirstPage=self._header_footer, onLaterPages=self._header_footer,
+                  canvasmaker=NumberedCanvas)
  
         # Get the value of the BytesIO buffer and write it to the response.
         pdf = buffer.getvalue()
