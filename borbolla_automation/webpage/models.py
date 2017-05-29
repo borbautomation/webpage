@@ -5,7 +5,7 @@ class FormularioContacto(models.Model):
     compania = models.CharField(max_length = 30)
     email = models.EmailField(max_length = 50 )
     text = models.TextField()
-    fecha = models.DateField(auto_now_add = True)
+    fecha = models.DateTimeField(auto_now_add = True)
 
     def __str__(self):
         return '%s %s %s'%(self.nombre , self.compania , self.email)  
