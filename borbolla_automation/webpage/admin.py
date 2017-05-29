@@ -3,7 +3,7 @@ from webpage.models import *
 
 
 class FormularioContactoAdmin(admin.ModelAdmin):
-    list_display = ('nombre' , 'compania' , 'email',)
+    list_display = ('nombre' , 'compania' , 'email','fecha')
     search_fields = ('nombre' , 'compania' , 'email',)
 
 
