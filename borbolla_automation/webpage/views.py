@@ -19,5 +19,5 @@ def index(request):
     else:
     	form = WebpageForm() 			
 
-    return render(request, 'webpage/index.html', context=context_dict)
+    return render(request, 'webpage/index.html', {'form':form})
 # Create your views here.
