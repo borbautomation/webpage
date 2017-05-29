@@ -341,12 +341,12 @@ Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto a
 						<form action="#"  method="get" class="my-form">
 							{% csrf_token %}
 								
-								Nombre    : {{ form.nombre }}
+								{{ form.nombre }}
 								
-								<br>Compañia : {{ form.compania }}
-								<br>Email : {{ form.email }}
+								{{ form.compania }}
+								{{ form.email }}
 								
-								<br>Mensaje : {{ form.text }}
+								{{ form.text }}
 
 							
 							
