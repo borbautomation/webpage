@@ -340,14 +340,13 @@ Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto a
 					<div class="col-sm-8 w3layouts-agileits contact-left">
 						<form action="#"  method="get" class="my-form">
 							{% csrf_token %}
-								<label for="id_nombre">Nombre</label><br>
-								{{ form.nombre }}
-								<label for="id_compania">Compañia</label><br>
-								{{ form.compania }}
-								<label for="id_email">Email</label><br>
-								{{ form.email }}
-								<label for="id_text">Mensaje</label><br>
-								{{ form.text }}
+								
+								Nombre : {{ form.nombre }}
+								
+								Compañia : {{ form.compania }}
+								Email : {{ form.email }}
+								
+								Mensaje : {{ form.text }}
 
 							
 							
