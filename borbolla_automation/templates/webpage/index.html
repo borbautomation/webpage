@@ -341,12 +341,17 @@ Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto a
 						<form action="#"  method="get" class="my-form">
 							{% csrf_token %}
 								
-								{{ form.nombre }}
-								
-								{{ form.compania }}
-								{{ form.email }}
-								
-								{{ form.text }}
+								{% for hidden in form.hidden_fields %}
+									{{ hidden }}
+								{% endfor %}
+								{# Include the visible fields #}
+								{% for field in form.visible_fields %}
+    								<div class="fieldWrapper">
+        								{{ field.errors }}
+        								{{ field }}
+								    </div>
+								    h
+								{% endfor %}
 
 							
 							
