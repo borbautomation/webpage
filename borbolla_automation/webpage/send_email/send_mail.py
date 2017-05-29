@@ -1,5 +1,5 @@
 import smtplib
-from credentials import e_mail
+from webpage.send_email.credentials import e_mail
 
 class send_email_base(object):
     """docstring for send_email_base"""
