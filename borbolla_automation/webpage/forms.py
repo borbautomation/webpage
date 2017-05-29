@@ -8,7 +8,7 @@ class WebpageForm(forms.ModelForm):
 		widgets = {
             'nombre': forms.TextInput(attrs={'placeholder': 'Nombre'}),
             'compania': forms.TextInput(attrs={'placeholder': 'Compañia'}),
-            'email': forms.TextInput(attrs={'placeholder': 'Compañia'}),
+            'email': forms.TextInput(attrs={'placeholder': 'Email'}),
             
             'text': forms.Textarea(
                 attrs={'placeholder': 'Mandanos tu mensaje...'}),
