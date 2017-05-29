@@ -341,7 +341,7 @@ Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto a
 						<form action="#"  method="get" class="my-form">
 							{% csrf_token %}
 							<table>
-								{% form.as_table %}
+								{{ form.as_table }}
 							</table>
 							
 						 <input class="submit" type="submit" name="Send" value="ENVIAR">
