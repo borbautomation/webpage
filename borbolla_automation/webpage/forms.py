@@ -4,3 +4,4 @@ from webpage.models import *
 class WebpageForm(forms.ModelForm):
 	class Meta:
 		model = FormularioContacto
+		fields = ['nombre','compania','email','text']
