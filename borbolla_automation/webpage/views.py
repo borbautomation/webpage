@@ -11,26 +11,26 @@ def index(request):
     
     
     if request.method == 'POST':
-    	form = WebpageForm(request.POST)
+        form = WebpageForm(request.POST)
 
-    	if form.is_valid():
-    		form.save(commit=True)
-    		users = User.objects.all()
-    		emails = []
-    		for user in users:
-    		    emails.append(user.email)
+        if form.is_valid():
+            form.save(commit=True)
+            users = User.objects.all()
+            emails = []
+            for user in users:
+                emails.append(user.email)
             
             text = 'Nombre : %s\nCompania : %s\nEmail : %s\n Mensaje : %s\n'%(request.POST['nombre'],
-            																  request.POST['compania'],
-            																  request.POST['email'],
-            																  request.POST['text'],)
+                                                                              request.POST['compania'],
+                                                                              request.POST['email'],
+                                                                              request.POST['text'],)
 
             _send_mail = contact_email(emails,'Nuevo mensaje desde pagina web!',text)
 
-    		return HttpResponseRedirect('/gracias/')
+            return HttpResponseRedirect('/gracias/')
 
     else:
-    	form = WebpageForm() 			
+        form = WebpageForm()            
 
     return render(request, 'webpage/index.html', {'form':form})
 # Create your views here.
