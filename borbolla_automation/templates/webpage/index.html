@@ -340,13 +340,9 @@ Se utilizan computadoras especializadas y tarjetas de entradas y salidas tanto a
 					<div class="col-sm-8 w3layouts-agileits contact-left">
 						<form action="#"  method="get" class="my-form">
 							{% csrf_token %}
-							{% for hidden in form.hidden_fields %}
-								{{ hidden }}
-							{% endfor %}
-							{% for field in form.visible_fields %}
-								{{ field.errors }}
-								{{ field.help_text }}
-								{{ field }}
+							<table>
+								{form.as_table}
+							</table>
 							{% endfor %}
 						 <input class="submit" type="submit" name="Send" value="ENVIAR">
 						</form>
