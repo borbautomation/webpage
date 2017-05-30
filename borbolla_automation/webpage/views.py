@@ -35,3 +35,7 @@ def index(request):
 
     return render(request, 'webpage/index.html', {'form':form})
 # Create your views here.
+
+def contacto_gracias(request):
+    return render(request, 'webpage/contacto_gracias.html')
+    

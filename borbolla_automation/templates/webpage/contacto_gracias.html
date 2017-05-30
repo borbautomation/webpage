@@ -1,0 +1,173 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+<title>Borbolla Automation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Best Industry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' media='all' />
+<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/lightbox.css' %}">
+<link rel="stylesheet" href="{% static 'css/font-awesome.css' %}" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+			<!-- FlexSlider-JavaScript -->
+	<script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
+	<script type="text/javascript">
+		$(function(){
+			SyntaxHighlighter.all();
+				});
+				$(window).load(function(){
+				$('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+						$('body').removeClass('loading');
+					}
+			});
+		});
+	</script>
+	<!-- //FlexSlider-JavaScript -->
+</head>
+<body>
+
+<!-- navigation -->
+<div class="nav-links">	
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="/"><img src="{% static 'images/borbolla_logo.png' %}" ></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav link-effect">
+					<li class="active"><a href="/">Principal</a></li>
+					<li><a href="#about" class="scroll">Acerca</a></li>
+					<li><a href="#services" class="scroll">Servicios</a></li>
+					<li><a href="#projects" class="scroll">Proyectos</a></li>
+					<li><a href="#team" class="scroll">Equipos</a></li>	
+					<li><a href="#contact" class="scroll">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<!-- /navigation -->
+
+<!-- banner-->
+
+	
+
+<!-- /banner-->
+
+<!--about -->
+<div class="about-agileits" id="about">
+	<div class="container">
+		<h3>Acerca de Nosotros</h3>
+		<label class="line"></label>
+		<p class="top-p">Somos un equipo de especialistas que proveen soluciones en automatización de procesos industriales , Monitoreo de calidad de energia , Monitoreo de procesos a travez de SCADA y soluciones de ingenieria ,logrando satisfacción de nuestros clientes a través de la mejora continua, nuevas tecnologías, integridad y excelencia.</p>
+	</div>
+</div>
+	<!-- /.contact us -->
+<div class="footer">
+	<div class="container">
+		<p>&copy; 2017 Borbolla Automation.  | Design by <a href="www.google.com"> Luis Borbolla </a></p>
+	</div>
+</div>
+	  <script src="{% static 'js/pie-chart.js' %}" type="text/javascript"></script>
+	      <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#df4914',
+                trackColor: '#eee',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#df4914',
+                trackColor: '#eee',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#df4914',
+                trackColor: '#eee',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-4').pieChart({
+                barColor: '#df4914',
+                trackColor: '#eee',
+                lineCap: 'round',
+                lineWidth: 8,
+                rotate: 90,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+
+    </script>
+		<!-- start-smooth-scrolling -->
+			<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+			<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+			</script>
+	<!-- //start-smoth-scrolling -->
+		<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+</body>
+</html>
