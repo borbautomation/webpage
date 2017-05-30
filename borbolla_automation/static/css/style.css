@@ -279,6 +279,15 @@ h4.modal-title {
 /*-- /services--*/
 
 /*--skills--*/
+.skills-w3ls{
+	background:url(../images/skillsbg.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	text-align:center;
+}
+.skills-w3ls h3{
+	color:#fff;
+	margin-bottom:40px;
+}
 
 div#demo-pie-2 {
     margin-left: 5em;
