@@ -182,7 +182,7 @@ label.line{
 	display:block;
 	margin:20px auto;
 }
-p.top-p,li.top-p{
+p.top-p{
 	color:#999;
 	line-height:28px;
 	width:70%;
@@ -207,7 +207,7 @@ p.top-p,li.top-p{
 }
 .about-right p{
 	color:#eee;
-	font-size:14px;
+	font-size:18px;
 	line-height:28px;
 }
 p.sec-p{
