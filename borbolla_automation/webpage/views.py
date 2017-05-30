@@ -26,8 +26,9 @@ def index(request):
                                                                               request.POST['text'],)
 
             _send_mail = contact_email(emails,'Nuevo mensaje desde pagina web!',text)
+            _send_mail.send()
 
-            return HttpResponseRedirect(str(emails))
+            return HttpResponseRedirect(str(request.POST['email']))
 
     else:
         form = WebpageForm()            
