@@ -486,7 +486,7 @@ ul.social-icons li  a .fa-linkedin:hover{
 /*--team--*/
 /*-- clients--*/
 .clients{
-	background:url('../images/testimonialsbg.jpg') no-repeat 0px 0px;
+	background:url('static/images/testimonialsbg.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	text-align:center;
 	background-attachment:fixed;
