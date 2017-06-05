@@ -3,7 +3,7 @@ from django.contrib import admin
 from dollar.models import *
 
 class BancoAdmin(admin.ModelAdmin):
-    list_display = ('nombre' ,)
+    list_display = ('nombre' ,'fecha_creacion','ultima_modificacion')
     search_fields = ('nombre' , 'fecha_creacion')
 
 class PrecioAdmin(admin.ModelAdmin):
