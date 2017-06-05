@@ -6,6 +6,11 @@ from django.contrib.auth.models import User
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.units import inch
+
+from django.utils.timezone import datetime
+from dollar.models import Banco , Precio
+
+
  
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
@@ -51,12 +56,12 @@ class MyPrint:
         styles = getSampleStyleSheet()
  
         # Header
-        header = Paragraph('This is a multi-line header.  It goes on every page.   ' * 5, styles['Normal'])
+        header = Paragraph('This is a multi-line header.  It goes on every page.   ' * 1, styles['Normal'])
         w, h = header.wrap(doc.width, doc.topMargin)
         header.drawOn(canvas, doc.leftMargin, doc.height + doc.topMargin - h)
  
         # Footer
-        footer = Paragraph('This is a multi-line footer.  It goes on every page.   ' * 5, styles['Normal'])
+        footer = Paragraph('This is a multi-line footer.  It goes on every page.   ' * 1, styles['Normal'])
         w, h = footer.wrap(doc.width, doc.bottomMargin)
         footer.drawOn(canvas, doc.leftMargin, h)
  
@@ -81,10 +86,13 @@ class MyPrint:
  
         # Draw things on the PDF. Here's where the PDF generation happens.
         # See the ReportLab documentation for the full list of functionality.
+        today = datetime.today()
+        precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
         users = User.objects.all()
-        elements.append(Paragraph('My User Names', styles['Heading1']))
-        for i, user in enumerate(users):
-            elements.append(Paragraph(user.get_full_name(), styles['Normal']))
+        elements.append(Paragraph('Precio Dolar Hoy', styles['Heading1']))
+
+        for i, precio in enumerate(precios_hoy):
+            elements.append(Paragraph('%s -- compra : %s venta : %s'%(precio.banco.nombre , precio.compra , precio.venta), styles['Normal']))
  
         doc.build(elements, onFirstPage=self._header_footer, onLaterPages=self._header_footer,
                   canvasmaker=NumberedCanvas)
