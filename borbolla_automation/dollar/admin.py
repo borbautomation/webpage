@@ -7,7 +7,7 @@ class BancoAdmin(admin.ModelAdmin):
     search_fields = ('nombre' , 'fecha_creacion')
 
 class PrecioAdmin(admin.ModelAdmin):
-    list_display = ('get_nombre' , 'compra','venta')
+    list_display = ('get_nombre' , 'compra','venta','fecha_creacion','ultima_modificacion')
     search_fields = ('banco__nombre' , 'fecha_creacion')
     def get_nombre(self,obj):
         return obj.banco.nombre
