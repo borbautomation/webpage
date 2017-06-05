@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import os
-from webscrap import Dolar
+from dollar.webscrap import Dolar
 os.environ.setdefault('DJANGO_SETTINGS_MODULE',
 'borbolla_automation.settings')
 import django
