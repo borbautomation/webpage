@@ -14,7 +14,7 @@ def populate():
         bank,created = Banco.objects.get_or_create(nombre = banco['banco'])
         bank.save()
         print(created)
-        precio_hoy = Precio.objects.create(banco = banco , compra = banco['compra'] , venta = banco['venta'])
+        precio_hoy = Precio.objects.create(banco = bank , compra = banco['compra'] , venta = banco['venta'])
         precio_hoy.save()
 
 if __name__ == '__main__':
