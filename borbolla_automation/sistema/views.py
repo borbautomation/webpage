@@ -7,7 +7,7 @@ from io import BytesIO
 def print_users(request):
     # Create the HttpResponse object with the appropriate PDF headers.
     response = HttpResponse(content_type='application/pdf')
-    response['Content-Disposition'] = 'attachment; filename="My Users.pdf"'
+    response['Content-Disposition'] = 'attachment; filename="Dolar_hoy.pdf"'
  
     buffer = BytesIO()
  
