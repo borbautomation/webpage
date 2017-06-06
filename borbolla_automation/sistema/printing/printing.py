@@ -89,7 +89,7 @@ class MyPrint:
         today = datetime.today()
         precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
         users = User.objects.all()
-        elements.append(Paragraph('Precio Dolar Hoy', styles['Heading1']))
+        elements.append(Paragraph('Precio Dolar Hoy %s'%today, styles['Heading1']))
 
         for i, precio in enumerate(precios_hoy):
             elements.append(Paragraph('%s -- compra : %s venta : %s'%(precio.banco.nombre , precio.compra , precio.venta), styles['Normal']))
