@@ -1,5 +1,5 @@
 from reportlab.lib.pagesizes import letter, A4
-from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.platypus import SimpleDocTemplate, Paragraph ,Image
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 from django.contrib.auth.models import User 
@@ -16,7 +16,7 @@ class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
         canvas.Canvas.__init__(self, *args, **kwargs)
         self._saved_page_states = []
- 
+
     def showPage(self):
         self._saved_page_states.append(dict(self.__dict__))
         self._startPage()
@@ -56,14 +56,20 @@ class MyPrint:
         styles = getSampleStyleSheet()
  
         # Header
-        header = Paragraph('This is a multi-line header.  It goes on every page.   ' * 1, styles['Normal'])
-        w, h = header.wrap(doc.width, doc.topMargin)
-        header.drawOn(canvas, doc.leftMargin, doc.height + doc.topMargin - h)
- 
+        header = Image('/home/automation/webpage/borbolla_automation/static/images/pdf/header.png')
+        header.drawHeight = 85
+        header.drawWidth = 488
+        header.hAlign = 'RIGHT'
+         w , h = header.wrap(doc.width , doc.topMargin)
+        header.drawOn(canvas , doc.leftMargin , 700)
+
         # Footer
-        footer = Paragraph('This is a multi-line footer.  It goes on every page.   ' * 1, styles['Normal'])
-        w, h = footer.wrap(doc.width, doc.bottomMargin)
-        footer.drawOn(canvas, doc.leftMargin, h)
+        footer = Image('/home/automation/webpage/borbolla_automation/static/images/pdf/footer.png')
+        footer.drawHeight = 150
+        footer.drawWidth = 850
+        #footer.hAlign = 'RIGHT'
+        w , h = footer.wrap(doc.width , doc.bottomMargin)
+        footer.drawOn(canvas , doc.leftMargin , h)
  
         # Release the canvas
         canvas.restoreState()
