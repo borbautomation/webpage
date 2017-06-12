@@ -57,8 +57,8 @@ class MyPrint:
  
         # Header
         header = Image('/home/automation/webpage/borbolla_automation/static/images/pdf/header.png')
-        header.drawHeight = 85.0/2
-        header.drawWidth = 488.0/2
+        header.drawHeight = 85.0*2/3
+        header.drawWidth = 488.0*2/3
         header.hAlign = 'RIGHT'
         w , h = header.wrap(doc.width , doc.topMargin)
         header.drawOn(canvas , 350 , 750)
