@@ -36,10 +36,7 @@ class Cotizacion(models.Model):
     def __str__(self):
         return '%s %s %s'%(self.contacto.cliente.nombre , self.contacto.nombre ,self.importe , )
 
-    class Meta:
-        verbose_name_plural = 'Cotizaciones'
-    
-    
+
 
 class Producto(models.Model):
     descripcion = models.CharField(max_length = 128)
