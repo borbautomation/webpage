@@ -61,7 +61,7 @@ class MyPrint:
         header.drawWidth = 488.0/2
         header.hAlign = 'RIGHT'
         w , h = header.wrap(doc.width , doc.topMargin)
-        header.drawOn(canvas , 400 , 750)
+        header.drawOn(canvas , 350 , 750)
 
         # Footer
         footer = Image('/home/automation/webpage/borbolla_automation/static/images/pdf/footer.png')
