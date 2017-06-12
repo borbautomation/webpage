@@ -65,8 +65,8 @@ class MyPrint:
 
         # Footer
         footer = Image('/home/automation/webpage/borbolla_automation/static/images/pdf/footer.png')
-        footer.drawHeight = 150.0*2/3
-        footer.drawWidth = 850.0*2/3
+        footer.drawHeight = 150.0*2/2.5
+        footer.drawWidth = 850.0*2/2.5
         #footer.hAlign = 'RIGHT'
         w , h = footer.wrap(doc.width , doc.bottomMargin)
         footer.drawOn(canvas , 0 , 0)
