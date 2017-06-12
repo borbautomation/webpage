@@ -33,11 +33,13 @@ class Cotizacion(models.Model):
     cantidad_pagada = models.IntegerField(default = 0)
     ultima_modificacion = models.DateField( auto_now = True)
 
+    def __str__(self):
+        return '%s %s %s'%(self.contacto.cliente.nombre , self.contacto.nombre ,self.importe , )
+
     class Meta:
         verbose_name_plural = 'Cotizaciones'
     
-    def __str__(self):
-        return self.contacto.cliente.nombre 
+    
 
 class Producto(models.Model):
     descripcion = models.CharField(max_length = 128)
