@@ -37,7 +37,7 @@ class Cotizacion(models.Model):
         verbose_name_plural = 'Cotizaciones'
     
     def __str__(self):
-        return '%s %s %s'%(self.contacto.cliente.nombre , self.contacto.nombre ,self.importe , )
+        return '%s %s %s'%(self.contacto.cliente.nombre , self.contacto.nombre ,self.importe )
 
 class Producto(models.Model):
     descripcion = models.CharField(max_length = 128)
@@ -55,7 +55,7 @@ class Partida(models.Model):
     ultima_modificacion = models.DateField(auto_now = True)
 
     def __str__(self):
-        return '%s %s'%(self.cantidad , self.producto.descripcion , self.producto.precio)
+        return '%s %s %s'%(self.cantidad , self.producto.descripcion , self.producto.precio)
 
 
 
