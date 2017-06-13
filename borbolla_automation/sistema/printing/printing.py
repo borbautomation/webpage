@@ -11,7 +11,6 @@ from django.utils.timezone import datetime
 from dollar.models import Banco , Precio
 
 
- 
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
         canvas.Canvas.__init__(self, *args, **kwargs)
@@ -20,7 +19,7 @@ class NumberedCanvas(canvas.Canvas):
     def showPage(self):
         self._saved_page_states.append(dict(self.__dict__))
         self._startPage()
- 
+
     def save(self):
         """add page info to each page (page x of y)"""
         num_pages = len(self._saved_page_states)
@@ -29,7 +28,7 @@ class NumberedCanvas(canvas.Canvas):
             self.draw_page_number(num_pages)
             canvas.Canvas.showPage(self)
         canvas.Canvas.save(self)
- 
+
     def draw_page_number(self, page_count):
         # Change the position of this to wherever you want the page number to be
         self.drawRightString(211 * mm, 3 * mm + (1 * inch),
@@ -82,18 +81,21 @@ class MyPrint:
                                 topMargin=72,
                                 bottomMargin=72,
                                 pagesize=self.pagesize)
- 
+
         # Our container for 'Flowable' objects
         elements = []
- 
+
         # A large collection of style sheets pre-made for us
         styles = getSampleStyleSheet()
         styles.add(ParagraphStyle(name='centered', alignment=TA_CENTER))
- 
+
         # Draw things on the PDF. Here's where the PDF generation happens.
         # See the ReportLab documentation for the full list of functionality.
         today = datetime.today()
         precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
+        if not precios_hoy:
+            today = datetime.today()-datetime.timedelta(days=1)
+            precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
         users = User.objects.all()
         elements.append(Paragraph('Precio Dolar Hoy %s'%today, styles['Heading1']))
 
