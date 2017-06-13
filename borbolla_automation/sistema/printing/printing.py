@@ -7,7 +7,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.units import inch
 
-from django.utils.timezone import datetime
+from django.utils.timezone import datetime , timedelta , now ,utc
 from dollar.models import Banco , Precio
 
 
@@ -94,7 +94,7 @@ class MyPrint:
         today = datetime.today()
         precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
         if not precios_hoy:
-            today = datetime.today()-datetime.timedelta(days=1)
+            today = datetime.today()-timedelta(days=1)
             precios_hoy = Precio.objects.filter(fecha_creacion__year = today.year , fecha_creacion__month = today.month , fecha_creacion__day = today.day)
         users = User.objects.all()
         elements.append(Paragraph('Precio Dolar Hoy %s'%today, styles['Heading1']))
