@@ -1,4 +1,5 @@
 from webpage.views import *
+from api import views
 
 from django.conf.urls import url
 from django.contrib import admin
@@ -10,4 +11,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^webpage/', include('webpage.urls')),
     url(r'^sistema/', include('sistema.urls')),
+    url(r'^api/', include('api.urls')),
 ]
