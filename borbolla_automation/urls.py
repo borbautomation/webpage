@@ -10,6 +10,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^webpage/', include('webpage.urls')),
-    url(r'^api/', include('api.urls')),
+    url(r'^sistema/', include('sistema.urls')),
     url(r'^api/', include('api.urls')),
 ]
