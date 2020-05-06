@@ -240,7 +240,7 @@
   background: transparent;
   border: none;
   min-height: auto;
-  background: #fbad1a;
+  background: #072d4d;
   border-top: 1px solid #38374C;
   border-radius: 0;
   margin: 0;
@@ -258,7 +258,7 @@
     }
     
     .navbar-default .navbar-toggle:hover .icon-bar {
-        background: #fbad1a;
+        background: #072d4d;
     }
     .navbar-collapse.collapse {
         display: none !important;
@@ -391,7 +391,7 @@
 }
 .offer-wraper .item .btn {
     border: none;
-    background: #fbad1a;
+    background: #072d4d;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -507,7 +507,7 @@ header.two .top-line-two .social-icons ul li{
 }
 .offer-wraper .item .btn {
     border: none;
-    background: #fbad1a;
+    background: #072d4d;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -579,7 +579,7 @@ header.two .top-line-two .social-icons ul li{
 }
 .offer-wraper .item .btn {
     border: none;
-    background: #fbad1a;
+    background: #072d4d;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -609,7 +609,7 @@ header.two .top-line-two .social-icons ul li{
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #072d4d;
 }
 .our-team  .members {
     margin-top: 30px;
