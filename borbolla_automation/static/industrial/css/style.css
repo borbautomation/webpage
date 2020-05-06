@@ -118,7 +118,7 @@ body {
 	font-weight: bold;
 }
 .main-header ul span.add {
-	color: #6c6c6c;
+	color: #072d4d;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -509,7 +509,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
           animation-delay: .5s;
 }
 #minimal-bootstrap-carousel .carousel-caption h2 span{
-  color:#6C6C69;
+  color:#072d4d;
 }
 
 #minimal-bootstrap-carousel .carousel-caption p {
@@ -721,7 +721,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 	left: 48%;
 	width: 50px;
 	height: 4px;
-	background: #6C6C69;
+	background: #072d4d;
 }
 .offer-wraper .item:hover .default-overlay-outer {
 	top: 0;
@@ -849,7 +849,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
    text-align: center;
 }
 .our-projects .image .overlay .bottom{
-   background: #6C6C69;
+   background: #072d4d;
    padding: 16px 18px;
 }
 .our-projects .image .overlay .bottom h3{
@@ -1079,7 +1079,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #6C6C69;
+    background: #072d4d;
 }
 
 .news .our-news .news1 figure {
@@ -1141,7 +1141,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     text-align: left;
     margin: 0;
     font-size: 12.5px;
-    color: #6C6C69;
+    color: #072d4d;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 40px;
@@ -1163,7 +1163,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #6C6C69;
+    background: #072d4d;
 }
 .news .questions .title {
    margin-bottom: 60px;
@@ -1376,7 +1376,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #6C6C69;
+    background: #072d4d;
 }
 
 .testimonials blockquote {
@@ -5941,7 +5941,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #6C6C69;
+    background: #072d4d;
 }
 .about-us-four .text-box {
     margin-top: 70px;
@@ -5965,7 +5965,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 
 .about-us-four .text-box ul li i{
     margin-right: 5px;
-     color: #6C6C69;
+     color: #072d4d;
 }
 
 .about-us-four a {
@@ -6009,7 +6009,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #6C6C69;
+    background: #072d4d;
 }
 .testimonials-four .item{
     width: 640px;
@@ -6058,7 +6058,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
-     color: #6C6C69;
+     color: #072d4d;
 }
 .testimonials-four .testimonials-author ul{
     list-style-type: none;
@@ -6066,7 +6066,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 .testimonials-four .testimonials-author ul li{
     display: inline-block;
-    color: #6C6C69;
+    color: #072d4d;
 }
 
 .testimonials-four .owl-theme .owl-nav {
