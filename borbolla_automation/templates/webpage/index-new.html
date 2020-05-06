@@ -32,8 +32,8 @@
 		<link href="{% static 'css/responsive.css' %}" rel='stylesheet' />
 
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<!--link rel="shortcut icon" href="/favicon.ico"-->
+		<!--link rel="apple-touch-icon" href="/apple-touch-icon.png"-->
 	</head>
 
 	<body>
@@ -42,7 +42,7 @@
 						<div class="row">
 							<div class="col-md-3">
 								<div class="logo">
-									<a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+									<a href="index.html"><img src="{% static 'img/logo.png' %}" alt="logo"/></a>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -198,7 +198,7 @@
 		  <div id="minimal-bootstrap-carousel" data-ride="carousel" class="carousel slide carousel-fade shop-slider">
       <!-- Wrapper for slides-->
       <div role="listbox" class="carousel-inner">
-        <div style="background-image: url(img/slide1.jpg);background-position: center right;" class="item active slide-1">
+        <div style="background-image: url({% static 'img/slide1.jpg' %});background-position: center right;" class="item active slide-1">
           <div class="carousel-caption">
             <div class="thm-container">
               <div class="box valign-bottom">
@@ -214,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div style="background-image: url(img/slide2.jpg);background-position: center right;" class="item slide-2">
+        <div style="background-image: url({% static 'img/slide2.jpg' %});background-position: center right;" class="item slide-2">
           <div class="carousel-caption">
             <div class="thm-container">
               <div class="box valign-bottom">
@@ -230,7 +230,7 @@
             </div>
           </div>
         </div>
-        <div style="background-image: url(img/slide3.jpg);background-position: center right;" class="item slide-3">
+        <div style="background-image: url({% static 'img/slide3.jpg' %});background-position: center right;" class="item slide-3">
           <div class="carousel-caption">
             <div class="thm-container">
               <div class="box valign-bottom">
@@ -255,7 +255,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/1.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/1.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -270,7 +270,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/3.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/3.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -285,7 +285,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/6.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/6.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -302,7 +302,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/5.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/5.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -317,7 +317,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/4.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/4.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -332,7 +332,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="item">
 							<figure class="img-box">
-								<a href="#"><img src="img/2.jpg" alt="image"/> </a>
+								<a href="#"><img src="{% static 'img/2.jpg' %}" alt="image"/> </a>
 								<figcaption class="default-overlay-outer">
 								<div class="inner">
 								<div class="content-layer"><a class="this-link btn btn-primary" href="#">See more</a> </div>
@@ -360,7 +360,7 @@
 
 							<div class="item01" >
 								<div class="image">
-									<a class="box-offer" href=""> <img src="img/service1.jpg" alt="Nutrition Photo"></a>
+									<a class="box-offer" href=""> <img src="{% static 'img/service1.jpg' %}" alt="Nutrition Photo"></a>
 									<div class="overlay">
 										<div class="box">
 											<div class="content">
@@ -378,7 +378,7 @@
 
 							<div class="item1">
 								<div class="image">
-									<a class="box-offer" href=""><img src="img/service2.jpg" alt="Nutrition Photo"></a>
+									<a class="box-offer" href=""><img src="{% static 'img/service2.jpg' %}" alt="Nutrition Photo"></a>
 									<div class="overlay">
 										<div class="box">
 											<div class="content">
@@ -396,7 +396,7 @@
 
 							<div class="item2">
 								<div class="image">
-									<a class="box-offer" href=""> <img src="img/service3.jpg" alt="Nutrition Photo"></a>
+									<a class="box-offer" href=""> <img src="{% static 'img/service3.jpg' %}" alt="Nutrition Photo"></a>
 									<div class="overlay">
 										<div class="box">
 											<div class="content">
@@ -414,7 +414,7 @@
 							<div class="item3">
 								<div class="image">
 								    <figure>
-									<a class="box-offer" href=""> <img src="img/service4.jpg" alt="Nutrition Photo"></a>
+									<a class="box-offer" href=""> <img src="{% static 'img/service4.jpg' %}" alt="Nutrition Photo"></a>
 									<div class="overlay">
 										<div class="box">
 											<div class="content">
@@ -458,7 +458,7 @@ It only respect Innovation</h3>
 		        <div class="col-md-6">
 		        	<div class="picture-wraper">
 		        		
-		        		<div class="first"><img src="img/about.jpg" alt="img"/> </div>
+		        		<div class="first"><img src="{% static 'img/about.jpg' %}" alt="img"/> </div>
 		        		
 		        	</div>
 		        </div>
@@ -512,7 +512,7 @@ It only respect Innovation</h3>
 							</div>
 							<div class="news1">
 								<figure>
-									<img src="img/new.jpg" alt="awsome photo"/>
+									<img src="{% static 'img/new.jpg' %}" alt="awsome photo"/>
 								</figure>
 								<div class="text-box">
 									<div class="date">
@@ -534,7 +534,7 @@ It only respect Innovation</h3>
 							</div>
 							<div class="news1">
 								<figure>
-									<img src="img/new.jpg" alt="awsome photo"/>
+									<img src="{% static 'img/new.jpg' %}" alt="awsome photo"/>
 								</figure>
 								<div class="text-box">
 									<div class="date">
@@ -640,7 +640,7 @@ It only respect Innovation</h3>
 						<div class="members">
 							<div class="member">
 								<figure>
-									<img src="img/member1.jpg" alt="awsome image"/>
+									<img src="{% static 'img/member1.jpg' %}" alt="awsome image"/>
 									<div class="overlay">
 										<div class="inner-box">
 											<ul class="social">
@@ -662,7 +662,7 @@ It only respect Innovation</h3>
 							</div>
 							<div class="member">
 								<figure>
-									<img src="img/member2.jpg" alt="awsome image"/>
+									<img src="{% static 'img/member2.jpg' %}" alt="awsome image"/>
 									<div class="overlay">
 										<div class="inner-box">
 											<ul class="social">
@@ -684,7 +684,7 @@ It only respect Innovation</h3>
 							</div>
 							<div class="member">
 								<figure>
-									<img src="img/member3.jpg" alt="awsome image"/>
+									<img src="{% static 'img/member3.jpg' %}" alt="awsome image"/>
 									<div class="overlay">
 										<div class="inner-box">
 											<ul class="social">
@@ -725,7 +725,7 @@ It only respect Innovation</h3>
 							</blockquote>
 							<div class="testimonials-author">
 								<div class="author-img">
-									<img class="img-responsive" src="img/author.jpg" alt="img"/>
+									<img class="img-responsive" src="{% static 'img/author.jpg' %}" alt="img"/>
 								</div>
 								<h4>George Simons<span> - Lawyer</span></h4>
 								<ul>
@@ -743,7 +743,7 @@ It only respect Innovation</h3>
 							</blockquote>
 							<div class="testimonials-author">
 								<div class="author-img">
-									<img class="img-responsive" src="img/author.jpg" alt="img"/>
+									<img class="img-responsive" src="{% static 'img/author.jpg' %}" alt="img"/>
 								</div>
 								<h4>George Simons<span> - Lawyer</span></h4>
 								<ul>
@@ -832,31 +832,31 @@ It only respect Innovation</h3>
 						<div id="about-us-our-partners" class="owl-carousel owl-theme"> 
 						<div class="item-partner">
 								<div class="image">
-									<img class="img-responsive" src="img/partner-logos/logo1.png" alt="Nutrition Photo">
+									<img class="img-responsive" src="{% static 'img/partner-logos/logo1.png' %}" alt="Nutrition Photo">
 								</div>
 								
 							</div>
 							<div class="item-partner">
 								<div class="image">
-									<img class="img-responsive" src="img/partner-logos/logo2.png" alt="Nutrition Photo">
+									<img class="img-responsive" src="{% static 'img/partner-logos/logo2.png' %}" alt="Nutrition Photo">
 								</div>
 								
 							</div>
 							<div class="item-partner">
 								<div class="image">
-									<img class="img-responsive" src="img/partner-logos/logo3.png" alt="Nutrition Photo">
+									<img class="img-responsive" src="{% static 'img/partner-logos/logo3.png' %}" alt="Nutrition Photo">
 								</div>
 								
 							</div>
 							<div class="item-partner">
 								<div class="image">
-									<img class="img-responsive" src="img/partner-logos/logo4.png" alt="Nutrition Photo">
+									<img class="img-responsive" src="{% static 'img/partner-logos/logo4.png' %}" alt="Nutrition Photo">
 								</div>
 								
 							</div>
 							<div class="item-partner">
 								<div class="image">
-									<img class="img-responsive" src="img/partner-logos/logo5.png" alt="Nutrition Photo">
+									<img class="img-responsive" src="{% static 'img/partner-logos/logo5.png' %}" alt="Nutrition Photo">
 								</div>
 								
 							</div>
@@ -882,7 +882,7 @@ It only respect Innovation</h3>
 				<div class="row">
 					<div class="col-md-3">
 						<figure>
-							<img class="img-responsive" src="img/logo2.png" alt="awsome image" />
+							<img class="img-responsive" src="{% static 'img/logo2.png' %}" alt="awsome image" />
 						</figure>
 						<p>Fusce non faucibus lorem. Cras eu velit id diam cursus tincidunt in ut dui. Quisque quis augue placerat, pulvinar dui aliquam, convallis sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </p>
 						<div class="social-icons">
@@ -963,14 +963,14 @@ It only respect Innovation</h3>
 					<a class="scroll-top" href="#"><i class="fa fa-angle-up"></i> </a>
 		<!-- Scripts -->
 		
-		<script src="plugins/jquery.min.js"></script>
-		<script src="plugins/owl.carousel.min.js"></script>
+		<script src="{% static 'plugins/jquery.min.js' %}"></script>
+		<script src="{% static 'plugins/owl.carousel.min.js' %}"></script>
 		 
-		<script src="plugins/bootstrap.min.js"></script>
+		<script src="{% static 'plugins/bootstrap.min.js' %}"></script>
 		
-		<script src="plugins/waypoints.min.js"></script>
-		<script src="plugins/jquery.counterup.min.js"></script>
-		<script src="plugins/theme.js"></script>
+		<script src="{% static 'plugins/waypoints.min.js' %}"></script>
+		<script src="{% static 'plugins/jquery.counterup.min.js' %}"></script>
+		<script src="{% static 'plugins/theme.js' %}"></script>
 	
 		
 	</body>
