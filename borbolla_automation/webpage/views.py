@@ -6,7 +6,8 @@ from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User 
 from webpage.send_email.send_mail import send_email_base as contact_email
 
-    
+def index_new(request):
+    return render(request, 'webpage/index-new.html') 
 def index(request):
     
     

@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^contacto_gracias/', views.contacto_gracias , name = 'contacto_gracias'),
+    url(r'^index-new/', views.index_new , name = 'index_new'),
 ]
