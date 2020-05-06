@@ -1477,7 +1477,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fbad1a;
+  background: #6C6C69;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -2293,7 +2293,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #fbad1a;
+  background: #6C6C69;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
