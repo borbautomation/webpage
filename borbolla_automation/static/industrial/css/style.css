@@ -129,7 +129,7 @@ body {
 .main-header .icon i {
 	font-size: 2em;
 	line-height: 30px;
-	color: #fbad1a;
+	color: #6C6C69;
 }
 .main-header .general-info {
 	float: left;
@@ -148,7 +148,7 @@ body {
 }
 .main-header .button a {
 	display: block;
-	background: #fbad1a;
+	background: #6C6C69;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -180,7 +180,7 @@ body {
 	transition: all 0.5s ease;
 }
 .main-header .social-icons ul li a:hover {
-	background: #fbad1a;
+	background: #6C6C69;
 }
         
       
@@ -215,7 +215,7 @@ body {
 	padding-left: 0;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li:last-child {
-    border-bottom: 4px solid #fbad1a;
+    border-bottom: 4px solid #6C6C69;
 }
 #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu {
 	position: absolute;
@@ -267,7 +267,7 @@ body {
     border-bottom: none;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li a:hover {
-    background: #fbad1a;
+    background: #6C6C69;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -326,7 +326,7 @@ body {
 }
 .finance-navbar .button a {
 	display: block;
-	background: #fbad1a;
+	background: #6C6C69;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -509,7 +509,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
           animation-delay: .5s;
 }
 #minimal-bootstrap-carousel .carousel-caption h2 span{
-  color:#fbad1a;
+  color:#6C6C69;
 }
 
 #minimal-bootstrap-carousel .carousel-caption p {
@@ -571,7 +571,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 #minimal-bootstrap-carousel .slide-2 .carousel-caption .thm-button {
    padding: 12px 33px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     margin-top: 25px;
@@ -582,7 +582,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 #minimal-bootstrap-carousel .slide-3 .carousel-caption .thm-button {
    padding: 12px 33px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     margin-top: 25px;
@@ -594,7 +594,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 
 #minimal-bootstrap-carousel .slide-1 .carousel-caption .thm-button {
    padding: 12px 33px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     margin-top: 25px;
@@ -721,7 +721,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 	left: 48%;
 	width: 50px;
 	height: 4px;
-	background: #fbad1a;
+	background: #6C6C69;
 }
 .offer-wraper .item:hover .default-overlay-outer {
 	top: 0;
@@ -765,7 +765,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 .offer-wraper .item .btn {
 	border: none;
-	background: #fbad1a;
+	background: #6C6C69;
 	color: #ffffff;
 	border-radius:0px;
 	text-transform: uppercase;
@@ -791,7 +791,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600px;
-	color: #fbad1a;
+	color: #6C6C69;
 }
 .offer-wraper .second {
 	margin-top: 40px;
@@ -849,7 +849,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
    text-align: center;
 }
 .our-projects .image .overlay .bottom{
-   background: #fbad1a;
+   background: #6C6C69;
    padding: 16px 18px;
 }
 .our-projects .image .overlay .bottom h3{
@@ -876,7 +876,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
   transition: background .4s ease, border-color .4s ease;
 }
 .our-projects .image .overlay .top a:hover{
-   background: #fbad1a;
+   background: #6C6C69;
    color: #FFFFFF;
 }
 .our-projects .image:hover .overlay {
@@ -895,14 +895,14 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 	left: 15px;
 	width: 50px;
 	height: 4px;
-	background: #fbad1a;
+	background: #6C6C69;
 }
 /***************************************
 * 8. quote section styles 
 ****************************************/
 .quote {
 	padding: 35px 0;
-	background: #fbad1a;
+	background: #6C6C69;
 }
 .quote h3 {
 	font-size: 24px;
@@ -933,7 +933,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 	left: 15px;
 	width: 50px;
 	height: 4px;
-	background: #fbad1a;
+	background: #6C6C69;
 }
 .about p {
 	text-align: left;
@@ -972,7 +972,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 .about a {
     border: none;
-    background: #fbad1a;
+    background: #6C6C69;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -985,7 +985,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     clear: both;
 }
 .about a:hover {
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .about .picture-wraper  {
    
@@ -1011,7 +1011,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     text-align: left;
     margin: 0;
     font-size: 28px;
-    color: #fbad1a;
+    color: #6C6C69;
     line-height:40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -1031,7 +1031,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     font-weight: 500;
     line-height: 40px;
     text-transform: capitalize;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .numbers .text-box p {
@@ -1079,7 +1079,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .news .our-news .news1 figure {
@@ -1115,7 +1115,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 .news .our-news .news1 .text-box .date{
     width: 50px;
     height: 50px;
-    background: #fbad1a;
+    background: #6C6C69;
     float: left;
     text-align: center;
     color: #FFFFFF;
@@ -1141,7 +1141,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     text-align: left;
     margin: 0;
     font-size: 12.5px;
-    color: #fbad1a;
+    color: #6C6C69;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 40px;
@@ -1163,7 +1163,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .news .questions .title {
    margin-bottom: 60px;
@@ -1204,7 +1204,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 17px;
     top: 50%;
     margin-top: -11.5px;
-    color: #fbad1a;
+    color: #6C6C69;
     border: 2px solid #c0c0c0;
 }
 .toggle .toggle-body {
@@ -1235,7 +1235,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .our-team .team-text p {
     text-align: left;
@@ -1250,7 +1250,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 .our-team .team-text a.btn {
     padding: 10px 29px;
-    color: #fbad1a;
+    color: #6C6C69;
     border: 1px solid #cdcdcd;
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
@@ -1335,7 +1335,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     text-align: left;
    margin-top:5px;
     font-size: 13px;
-    color: #fbad1a;
+    color: #6C6C69;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
@@ -1376,7 +1376,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .testimonials blockquote {
@@ -1436,7 +1436,7 @@ border-top-width: 29px;
 }
 .testimonials .testimonials-author ul li{
     display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 /***************************************
@@ -1461,7 +1461,7 @@ border-top-width: 29px;
     left: 20px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .contact p {
     text-align: left;
@@ -1531,7 +1531,7 @@ border-top-width: 29px;
 }
 .contact form a.btn {
     padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -1563,7 +1563,7 @@ border-top-width: 29px;
     left: 20px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .partners #about-us-our-partners{
     margin-top: 30px;
@@ -1580,7 +1580,7 @@ border-top-width: 29px;
 ****************************************/
 .quote-request {
     padding: 40px 0;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .quote-request h4{
      text-align: left;
@@ -1594,7 +1594,7 @@ border-top-width: 29px;
 
 .quote-request a.btn {
     padding: 12px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius: 0px;
@@ -1660,7 +1660,7 @@ border-top-width: 29px;
     border-radius: 3px;
 }
 .main-footer .social-icons ul li a:hover {
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .main-footer .solutions {
@@ -1672,7 +1672,7 @@ border-top-width: 29px;
     
 }
 .main-footer .solutions li a:hover{
-    color: #fbad1a;   
+    color: #6C6C69;   
 }
 .main-footer .solutions li a{
     color: #F4F4F4;
@@ -1703,7 +1703,7 @@ border-top-width: 29px;
     transition: all .3s ease;   
 }
 .main-footer .contact-info .address a:hover{
-    color: #fbad1a;   
+    color: #6C6C69;   
 }
 .main-footer .contact-info li {
     color: #F4F4F4;
@@ -1714,7 +1714,7 @@ border-top-width: 29px;
     overflow: hidden;
 }
 .main-footer .contact-info li i{
-    color: #fbad1a;
+    color: #6C6C69;
     float:left;
     font-size: 24px;
     width: 35px;
@@ -1737,7 +1737,7 @@ border-top-width: 29px;
     width: 50px;
     height: 40px;
     text-align:center;
-    background: #fbad1a;  
+    background: #6C6C69;  
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -1781,7 +1781,7 @@ border-top-width: 29px;
 }
 
 .page-nav ul li span{
-   color: #fbad1a;
+   color: #6C6C69;
     
 }
 .overview {
@@ -1806,7 +1806,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .overview p{
     text-align: left;
@@ -1909,7 +1909,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .achivment {
@@ -1936,7 +1936,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 /***************************************
@@ -1963,7 +1963,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .our-team-page .team-text p {
     text-align: left;
@@ -1978,7 +1978,7 @@ border-top-width: 29px;
 }
 .our-team-page .team-text a.btn {
     padding: 10px 29px;
-    color: #fbad1a;
+    color: #6C6C69;
     border: 1px solid #cdcdcd;
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
@@ -2062,7 +2062,7 @@ border-top-width: 29px;
     text-align: left;
    margin-top:5px;
     font-size: 13px;
-    color: #fbad1a;
+    color: #6C6C69;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
@@ -2108,7 +2108,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .our-faq .contact-box  {
@@ -2159,7 +2159,7 @@ border-top-width: 29px;
 }
 .our-faq .contact-box form a.btn {
     padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -2213,7 +2213,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 }
 .testimonials-page span{
     font-size:14px;
-   color: #fbad1a;
+   color: #6C6C69;
 }
 /***************************************
 * 23. Mechanical Engineering page styles styles 
@@ -2239,7 +2239,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .Mechanical-engineering .special-links ul li.active a{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 .Mechanical-engineering .special-links ul li a{
     display: block;
@@ -2254,7 +2254,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .Mechanical-engineering .special-links ul li a:hover{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 
 .Mechanical-engineering .download h4 a{
@@ -2280,7 +2280,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     font-size:14px;
     line-height: 45px;
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .Mechanical-engineering .img-box {
     margin-bottom: 30px;
@@ -2371,7 +2371,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .chemical-research .special-links ul li.active a{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 .chemical-research .special-links ul li a{
     display: block;
@@ -2386,7 +2386,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .chemical-research .special-links ul li a:hover{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 
 .chemical-research .download h4 a{
@@ -2412,7 +2412,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     font-size:14px;
     line-height: 45px;
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 
@@ -2478,7 +2478,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .power-and-energy .special-links ul li.active a{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 .power-and-energy .special-links ul li a{
     display: block;
@@ -2493,7 +2493,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .power-and-energy .special-links ul li a:hover{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 
 .power-and-energy .download h4 a{
@@ -2519,7 +2519,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     font-size:14px;
     line-height: 45px;
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .power-and-energy .img-box {
     margin-bottom: 30px;
@@ -2583,7 +2583,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .petroleum-and-gas .special-links ul li.active a{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 .petroleum-and-gas .special-links ul li a{
     display: block;
@@ -2598,7 +2598,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .petroleum-and-gas .special-links ul li a:hover{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 
 .petroleum-and-gas .download h4 a{
@@ -2624,7 +2624,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     font-size:14px;
     line-height: 45px;
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .petroleum-and-gas .text p{
@@ -2710,7 +2710,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .facture-process .special-links ul li.active a{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 .facture-process .special-links ul li a{
     display: block;
@@ -2725,7 +2725,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .facture-process .special-links ul li a:hover{
     background: #072d4d;
     color: #FFFFFF;
-    border-color: #fbad1a;
+    border-color: #6C6C69;
 }
 
 .facture-process .download h4 a{
@@ -2751,7 +2751,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     font-size:14px;
     line-height: 45px;
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 
@@ -2950,7 +2950,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .single-project .first-block ul i{
     margin-right:5px;
     font-size: 15px;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .single-project .img-box{
@@ -2995,7 +2995,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     display:block;
     font-size:16px;
     color:#ffffff;
-    background:#fbad1a;
+    background:#6C6C69;
     
     border: none;
 }
@@ -3020,7 +3020,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
     
 }
 .news-section .blog-info .category-widget ul li a:hover{
-     color: #fbad1a;
+     color: #6C6C69;
     
 }
 .news-section .blog-info .category-widget ul li a:before {
@@ -3047,7 +3047,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 }
 .news-section .blog-info .news-widget .news-item p{
    
-    color: #fbad1a;
+    color: #6C6C69;
     font-weight: 300;
     
 }
@@ -3079,7 +3079,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 .news-section .blog-info .news-widget h5 a:hover{
    
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .news-section .blog-info .tags-widget{
    margin-top: 50px;
@@ -3113,7 +3113,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 
 .news-section .blog-info .tags-widget ul li a:hover{
  color: #FFFFFF;
-  background: #fbad1a;  
+  background: #6C6C69;  
 }
 .news-section .blog-info .instigram-widget {
    margin-top: 50px;
@@ -3178,7 +3178,7 @@ box-shadow: 0px 0px 40px -21px rgba(0,0,0,0.39);
 
 .news-section .news-wraper .news-box a{
     
-    color: #fbad1a;
+    color: #6C6C69;
    
 }
 /***************************************
@@ -3214,7 +3214,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 .news-section .news-wraper-big .news-box .header p{
     font-size: 14px;
     line-height:18px;
-    color: #fbad1a;
+    color: #6C6C69;
     font-weight: 300;
 }
 .news-section .news-wraper-big .news-box .text-box {
@@ -3223,7 +3223,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
    
 }
 .news-section .news-wraper-big .news-box .text-box a{
-  color: #fbad1a;
+  color: #6C6C69;
    
 }
 .news-section .news-wraper-big .news-box .text-box i{
@@ -3243,7 +3243,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .news-section .news-wraper-big .news-box .text a{
        padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -3297,7 +3297,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     border-bottom: none;
 }
 .news-section .news_one-single .text-box a.path {
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .news-section .news_one-single .text-box i{
     margin-right: 5px;
@@ -3473,7 +3473,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .news-section .contact-wraper-last .btn {
     padding: 10px 35px;
-    color: #fbad1a;
+    color: #6C6C69;
     border: 1px solid #cdcdcd;
     margin-top: 15px;
     margin-left: 15px;
@@ -3527,7 +3527,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     display:block;
     font-size:16px;
     color:#ffffff;
-    background:#fbad1a;
+    background:#6C6C69;
     
     border: none;
 }
@@ -3552,7 +3552,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     
 }
 .shop-section .blog-info .category-widget ul li a:hover{
-     color: #fbad1a;
+     color: #6C6C69;
     
 }
 .shop-section .blog-info .category-widget ul li a:before {
@@ -3579,7 +3579,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 }
 .shop-section .blog-info .news-widget .news-item p{
    
-    color: #fbad1a;
+    color: #6C6C69;
     font-weight: 300;
     
 }
@@ -3591,7 +3591,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 .shop-section .blog-info .news-widget .news-item ul li{
    
     display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .shop-section .blog-info .instigram-widget p{
     font-size:14px;
@@ -3621,7 +3621,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 .shop-section .blog-info .news-widget h5 a:hover{
    
     
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .shop-section .blog-info .tags-widget{
    margin-top: 50px;
@@ -3655,7 +3655,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .shop-section .blog-info .tags-widget ul li a:hover{
  color: #FFFFFF;
-  background: #fbad1a;  
+  background: #6C6C69;  
 }
 .shop-section .blog-info .price-widget {
    margin-top: 50px;
@@ -3700,13 +3700,13 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .shop-section .product-wraper .product ul li{
    display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .shop-section .product-wraper .product a{  
 
    padding: 9px 21px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -3735,7 +3735,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     transition: .3s ease;
 }
 .shop-section .navigation ul li a:hover{
-    background: #fbad1a;
+    background: #6C6C69;
 }
 /***************************************
 * 34.shop details page styles styles 
@@ -3748,7 +3748,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .shop-section .detailed-product .text-box ul li{
    display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .shop-section .detailed-product .text-box h3{
@@ -3786,7 +3786,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .shop-section .detailed-product .text-box a.btn{
     padding: 10px 21px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -3806,7 +3806,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     transition: .3s ease;
 }
 .shop-section .detailed-product .text-box .tag  a:hover{
-   color: #fbad1a;
+   color: #6C6C69;
 }
 
 .product-tab-box {
@@ -3957,7 +3957,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .cart-page .last-row a.btn{
     padding: 12px 27px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -4041,7 +4041,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 
 .cart-page .cart-total a.check{
      padding: 12px 27px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     display:block;
@@ -4054,9 +4054,9 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     transition: .4s ease;
 }
 .cart-page .cart-total a.check:hover{
-    border: 3px solid #fbad1a;
+    border: 3px solid #6C6C69;
     background: #FFFFFF;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 /***************************************
@@ -4115,7 +4115,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 }
 .contact_us-second .btn {
       padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -4188,7 +4188,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     
 }
 .keep-in ul.social-icons li a{
-    color: #fbad1a;
+    color: #6C6C69;
    
     
 }
@@ -4208,7 +4208,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 }
 .contact-box .address-box .icon-box i{
     font-size: 21px;
-    color: #fbad1a;
+    color: #6C6C69;
     text-align: center;
 }
 .contact-box .address-box .address-text{
@@ -4238,7 +4238,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     margin: 0;
     font-weight: 400;
     font-size: 15px;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .checkout form label{
     
@@ -4376,7 +4376,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
   font-size: 14px;
 }
 .checkout .order .details ul li .second-right{
-     color: #fbad1a;
+     color: #6C6C69;
   display: block;
   float: right;
   font-size: 14px;
@@ -4389,7 +4389,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
 }
 .checkout .order .details ul li a{
     padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -4440,7 +4440,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     font-size: 13px;
 }
 .top-line-two  .welcome ul li i{
-    color: #fbad1a;
+    color: #6C6C69;
     margin-right: 5px;
 }
 .top-line-two  .social-icons {
@@ -4466,7 +4466,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     transition: all 0.5s ease;
 }
 .top-line-two  .social-icons ul li a:hover {
-    color: #fbad1a;
+    color: #6C6C69;
 }
 /***************************************
 * 4. main-menu styles 
@@ -4502,7 +4502,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     padding-left: 0;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li:last-child {
-    border-bottom: 4px solid #fbad1a;
+    border-bottom: 4px solid #6C6C69;
 }
 #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu {
     position: absolute;
@@ -4554,7 +4554,7 @@ box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.34);
     border-bottom: none;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li a:hover {
-    background: #fbad1a;
+    background: #6C6C69;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -4678,7 +4678,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .why-choose-us .sec-pad{
@@ -4708,7 +4708,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 .why-choose-us .item .img-box .bottom-content .icon-box{
     
     float:left;
-    background: #fbad1a;
+    background: #6C6C69;
     height: 60px;
     width: 60px;
     text-align: center;
@@ -4767,12 +4767,12 @@ font-size: 14px;
 font-weight: 300;
 }
 .why-choose-us .item .img-box .overlay .inner-box a{
-color: #fbad1a;
+color: #6C6C69;
 font-size: 14px;
 font-weight: 400;
 }
 .why-choose-us .item .img-box .overlay .inner-box .icon-box i{
-color: #fbad1a;
+color: #6C6C69;
 font-size: 38px;
 font-weight: 300;
 }
@@ -4803,7 +4803,7 @@ font-weight: 300;
     left: 0px;;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .our-projects-two .full-width-slider{
@@ -4868,7 +4868,7 @@ font-weight: 300;
 
 .our-projects-two .full-width-slider .item .image .overlay .button a{  
     border: none;
-    background: #fbad1a;
+    background: #6C6C69;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -4903,7 +4903,7 @@ font-weight: 300;
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .about-us {
     padding: 80px 0;
@@ -4945,7 +4945,7 @@ font-weight: 300;
     left: 17px;
     top: 50%;
     margin-top: -11.5px;
-    color: #fbad1a;
+    color: #6C6C69;
     border: 2px solid #c0c0c0;
 }
 .about-us .toggle .toggle-body {
@@ -4969,7 +4969,7 @@ font-weight: 300;
 }
 
 .about-us .about i{
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .about-us .about ul{
@@ -5005,7 +5005,7 @@ font-weight: 300;
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .latest-news .item .img-box{
@@ -5034,7 +5034,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     color: black;
 }
 .latest-news .item .text-box h4:hover{
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .latest-news .item .text-box p span{
     font-weight: 300;
@@ -5049,7 +5049,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 
 .latest-news .item .text-box a {
     font-weight: 400;
-    color: #fbad1a;
+    color: #6C6C69;
     font-size: 15px;
     line-height: 28px;
 }
@@ -5080,7 +5080,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .testimonials-two blockquote {
@@ -5140,7 +5140,7 @@ border-top-width: 29px;
 }
 .testimonials-two .testimonials-author ul li{
     display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 /***************************************
@@ -5168,7 +5168,7 @@ border-top-width: 29px;
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .about-us-third .text-box {
     margin-top: 70px;
@@ -5192,12 +5192,12 @@ border-top-width: 29px;
 
 .about-us-third .text-box ul li i{
     margin-right: 5px;
-     color: #fbad1a;
+     color: #6C6C69;
 }
 
 .about-us-third a {
     border: none;
-    background: #fbad1a;
+    background: #6C6C69;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -5210,7 +5210,7 @@ border-top-width: 29px;
     clear: both;
 }
 .about-us-third a:hover {
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .why-choose-us-third {
@@ -5233,7 +5233,7 @@ border-top-width: 29px;
 }
 .why-choose-us-third .box i{
     font-size: 62px;
-    color: #fbad1a;
+    color: #6C6C69;
     margin-bottom: 15px;
 }
 .why-choose-us-third .box::before{
@@ -5250,7 +5250,7 @@ border-top-width: 29px;
   height: 4px;
   position: absolute;
   content: "";
-  background: #fbad1a;
+  background: #6C6C69;
   left: 0;
   bottom: 0;
   transform: scaleX(0);
@@ -5290,7 +5290,7 @@ border-top-width: 29px;
     left: 0px;;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .our-projects-three .full-width-slider{
@@ -5358,7 +5358,7 @@ border-top-width: 29px;
 
 .our-projects-three .full-width-slider .item .image .overlay .button a{  
     border: none;
-    background: #fbad1a;
+    background: #6C6C69;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -5398,7 +5398,7 @@ border-top-width: 29px;
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 
 .latest-news-third .item .img-box{
@@ -5412,7 +5412,7 @@ border-top-width: 29px;
     height: 60px;
     top: 0;
     left: 0;
-    background: #fbad1a;
+    background: #6C6C69;
     text-align: center;
     color: #FFFFFF;
     padding-top: 7px;
@@ -5443,7 +5443,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     color: black;
 }
 .latest-news-third .item .text-box h4:hover{
-    color: #fbad1a;
+    color: #6C6C69;
 }
 .latest-news-third .item .text-box p span{
     font-weight: 300;
@@ -5458,7 +5458,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 
 .latest-news-third .item .text-box a {
     font-weight: 400;
-    color: #fbad1a;
+    color: #6C6C69;
     font-size: 15px;
     line-height: 28px;
 }
@@ -5490,7 +5490,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .testimonials-three .item{
     width: 640px;
@@ -5547,7 +5547,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 }
 .testimonials-three .testimonials-author ul li{
     display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .testimonials-three .owl-theme .owl-nav {
@@ -5585,7 +5585,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     left: 20px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .contact-three p {
     text-align: left;
@@ -5609,7 +5609,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 .contact-three .contact-wraper .contact-info{
     padding: 60px 15px 80px 20px;
     background: rgba(29, 33, 42, .5);
-    border: 4px solid #fbad1a;
+    border: 4px solid #6C6C69;
 }
 .contact-three form {
    
@@ -5656,7 +5656,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 }
 .contact-three form a.btn {
     padding: 10px 29px;
-    background: #fbad1a;
+    background: #6C6C69;
     color:#FFFFFF;
     border: none;
     border-radius:0px;
@@ -5768,7 +5768,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 }
 .main-header-four .sec-line .sec-line-wraper .button a {
 	display: block;
-	background: #fbad1a;
+	background: #6C6C69;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -5812,7 +5812,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
 	padding-left: 0;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li:last-child {
-    border-bottom: 4px solid #fbad1a;
+    border-bottom: 4px solid #6C6C69;
 }
 #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu {
 	position: absolute;
@@ -5864,7 +5864,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.38);
     border-bottom: none;
 }
 #main-navigation-wrapper .nav .dropdown-submenu li a:hover {
-    background: #fbad1a;
+    background: #6C6C69;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -5941,7 +5941,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 15px;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .about-us-four .text-box {
     margin-top: 70px;
@@ -5965,12 +5965,12 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 
 .about-us-four .text-box ul li i{
     margin-right: 5px;
-     color: #fbad1a;
+     color: #6C6C69;
 }
 
 .about-us-four a {
     border: none;
-    background: #fbad1a;
+    background: #6C6C69;
     color: #ffffff;
     border-radius:0px;
     text-transform: uppercase;
@@ -6009,7 +6009,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     left: 48%;
     width: 50px;
     height: 4px;
-    background: #fbad1a;
+    background: #6C6C69;
 }
 .testimonials-four .item{
     width: 640px;
@@ -6058,7 +6058,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
-     color: #fbad1a;
+     color: #6C6C69;
 }
 .testimonials-four .testimonials-author ul{
     list-style-type: none;
@@ -6066,7 +6066,7 @@ box-shadow: 0px 2px 8px -3px rgba(0,0,0,0.47);
 }
 .testimonials-four .testimonials-author ul li{
     display: inline-block;
-    color: #fbad1a;
+    color: #6C6C69;
 }
 
 .testimonials-four .owl-theme .owl-nav {
